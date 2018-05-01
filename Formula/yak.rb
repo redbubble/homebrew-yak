@@ -1,9 +1,9 @@
 class Yak < Formula
-  desc "Software to create fast and easy drum rolls."
+  desc "A tool to log in to AWS through Okta"
   homepage "https://github.com/redbubble/yak"
   url "https://github.com/redbubble/yak/releases/download/v1.1.2/yak_1.1.2_darwin_amd64.tar.gz"
   version "1.1.2"
-  sha256 "40b5d7c639e586b3f90fc7102b16e93f4d840f71f1afda43960a8938dafb59c5"
+  sha256 "0cb01454505ef8b86e76e1c8268f53cf04215333bb0971cefbe58df856a70739"
 
   def install
     bin.install "yak"
