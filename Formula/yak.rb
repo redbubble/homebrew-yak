@@ -3,7 +3,7 @@ class Yak < Formula
   homepage "https://github.com/redbubble/yak"
   url "https://github.com/redbubble/yak/releases/download/v1.2.1/yak_1.2.1_darwin_amd64.tar.gz"
   version "1.2.1"
-  sha256 "0b88a952937a414e65d49c614b63ecbe8f55c975a8d4838a86d8aeb25ada0218"
+  sha256 "11c73768729b8e5e62f6cc586efba6116f567eb8b6fcd3c2afd5d14d90cd6a61"
 
   def install
     bin.install "yak"
