@@ -1,9 +1,9 @@
 class Yak < Formula
   desc "A tool to log in to AWS through Okta"
   homepage "https://github.com/redbubble/yak"
-  url "https://github.com/redbubble/yak/releases/download/v1.5.2/yak_1.5.2_darwin_amd64.tar.gz"
-  version "1.5.2"
-  sha256 "7004fef11572abd4dc3b47f4f32d1302196347aaa17d61142bd42b3311512d47"
+  url "https://github.com/redbubble/yak/releases/download/v1.5.3/yak_1.5.3_darwin_amd64.tar.gz"
+  version "1.5.3"
+  sha256 "6abafc0e06004eda65cf143a589fba0bdc23a88ace43069c80c1dbdcc85b3a0c"
 
   def install
     bin.install "yak"
