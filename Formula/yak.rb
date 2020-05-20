@@ -2,16 +2,16 @@
 class Yak < Formula
   desc "A tool to log in to AWS through Okta"
   homepage "https://github.com/redbubble/yak"
-  version "1.5.4"
+  version "1.5.5"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/redbubble/yak/releases/download/v1.5.4/yak_1.5.4_darwin_amd64.tar.gz"
-    sha256 "6089b454845d4f61efab68eb255bc73bc2a5aa694929abaadb02f0a8d5179ca2"
+    url "https://github.com/redbubble/yak/releases/download/v1.5.5/yak_1.5.5_darwin_amd64.tar.gz"
+    sha256 "9452f31a68f839060a225e4c5e8dabce756e21238b9be7d294bc150ce58feb36"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/redbubble/yak/releases/download/v1.5.4/yak_1.5.4_linux_amd64.tar.gz"
-      sha256 "bd213fab494fbe5b45f1f1b46e278e259be714552dce8a1d91955b6e7d12d62b"
+      url "https://github.com/redbubble/yak/releases/download/v1.5.5/yak_1.5.5_linux_amd64.tar.gz"
+      sha256 "0918d5e28147b5895a56ac8c62f9183ccbca3ff0021fc7f4ff469d7772f6a702"
     end
   end
 
