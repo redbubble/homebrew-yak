@@ -7,11 +7,11 @@ class Yak < Formula
 
   if OS.mac?
     url "https://github.com/redbubble/yak/releases/download/v1.5.5/yak_1.5.5_darwin_amd64.tar.gz"
-    sha256 "289e76ca1c38ce58c0fec2029db2e06012b25a8b56f4ca4fe1cc4a61e6a05900"
+    sha256 "2ee7b828c967184cba6f4793b4fa1af3cb0ff7337d081181d1beb3f730e87457"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/redbubble/yak/releases/download/v1.5.5/yak_1.5.5_linux_amd64.tar.gz"
-      sha256 "99f0ffc354ab14e31350b4d0309d25f65200a554946ec30c7799c10fa85b8a1e"
+      sha256 "65eb01b69d52e78c38965a94bd61b2497c0dea4e06db5995be331f1136a9f96b"
     end
   end
 
